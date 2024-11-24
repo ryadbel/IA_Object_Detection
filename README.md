@@ -10,6 +10,9 @@ Ce projet utilise Mask R-CNN pour classifier les images de fleurs en deux catég
 ## 10 lignes de l'entrainement sur 10 epoques
 ![Texte alternatif](./lign10_10.png "Texte au survol")
 
+## 10 lignes de l'entrainement sur 20 epoques 
+
+![Texte alternatif](./lign10_20.png "Texte au survol")
 ## 10 lignes de l'entrainement sur 30 epoques 
 
 ![Texte alternatif](./lign10_30.png "Texte au survol")

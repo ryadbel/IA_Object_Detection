@@ -143,3 +143,26 @@ Après avoir comparé les performances des différentes configurations, l'entra�
 ![Texte alternatif](./output_image4.png "Texte au survol")
 
 
+## matrice de confusion du resultat du modele en une seule epoque 
+![Texte alternatif](./mat_conf_epch1.png "Texte au survol")
+
+
+## courbe Roc du resultat du modele en une seule epoque 
+![Texte alternatif](./cr_epch01.png "Texte au survol")
+
+
+## matrice de confusion du resultat du modele en 20 epoques 
+![Texte alternatif](./mc_epoch20.png "Texte au survol")
+
+
+## matrice de confusion du resultat du modele en 20 epoques 
+![Texte alternatif](./cr_epch20.png "Texte au survol")
+
+
+## matrice de confusion du resultat du modele en 30 epoques 
+![Texte alternatif](./mc_epoch30.png "Texte au survol")
+
+
+## matrice de confusion du resultat du modele en 30 epoques 
+![Texte alternatif](./cr_epoch30.png "Texte au survol")
+

@@ -91,33 +91,6 @@ python -m pip install setuptools==68.0.0 wheel==0.42.0 wrapt==1.16.0
 
 ## Expériences et Résultats
 
-Nous avons effectué des entraînements avec des nombres d'époques différents : 10, 20 et 30 époques. Voici un résumé des observations et résultats pour chaque configuration d'époques :
-
-### 1. Entraînement sur 20 Époques
-
-- **Résumé** : Avec 20 époques, le modèle a atteint des performances équilibrées en termes de précision d'entraînement et de validation. Les courbes de perte d'entraînement et de validation restent proches, indiquant une bonne généralisation.
-- **Observations** : Les résultats en validation sont cohérents avec ceux de l'entraînement, sans signes de surapprentissage (overfitting).
-- **Conclusion** : Ce nombre d'époques semble idéal, car il maximise les performances de généralisation du modèle sur l'ensemble de validation sans apprendre de manière excessive les caractéristiques spécifiques aux données d'entraînement.
-
-### 2. Entraînement sur 30 Époques
-
-- **Résumé** : À 30 époques, le modèle commence à montrer des signes de surapprentissage. La perte d'entraînement continue de diminuer, mais la perte de validation stagne et augmente légèrement.
-- **Observations** : La précision en validation commence à diminuer, indiquant que le modèle apprend davantage de caractéristiques spécifiques aux données d'entraînement plutôt que de généraliser sur de nouvelles données.
-- **Conclusion** : 30 époques semblent légèrement excessives pour ce dataset et cette configuration, bien que les performances soient encore acceptables.
-
-### 3. Entraînement sur 40 Époques
-
-- **Résumé** : Avec 40 époques, le surapprentissage est plus prononcé. La perte d'entraînement continue de baisser, tandis que la perte de validation augmente de manière significative.
-- **Observations** : La précision en validation diminue notablement, confirmant que le modèle est en surapprentissage.
-- **Conclusion** : Ce nombre d'époques est trop élevé pour cette tâche, car le modèle ne parvient plus à bien généraliser.
-
-### 4. Entraînement sur 50 Époques
-
-- **Résumé** : L'entraînement sur 50 époques entraîne un surapprentissage excessif. La perte d'entraînement atteint des valeurs très faibles, mais la perte de validation est bien supérieure, indiquant un modèle sur-adapté aux données d'entraînement.
-- **Observations** : La précision en validation chute, et les résultats en validation deviennent très éloignés des performances en entraînement.
-- **Conclusion** : Cette configuration n'est pas recommandée, car elle montre une très mauvaise généralisation aux nouvelles données.
-
----
 
 ## Choix Optimal : Entraînement sur 20 Époques
 

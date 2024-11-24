@@ -3,7 +3,18 @@
 # Ameni FEKI
 # Projet Mask R-CNN : Classification des Fleurs
 
-Ce projet utilise Mask R-CNN pour classifier les images de fleurs en deux catégories : **Tulipe** et **Non-Tulipe**. Ce README fournit des détails complets sur les tests d'entraînement effectués avec différents nombres d'époques (20, 30, 40, 50), les résultats obtenus, les observations sur le surapprentissage (overfitting), et des visualisations clés pour évaluer les performances du modèle.
+Ce projet utilise Mask R-CNN pour classifier les images de fleurs en deux catégories : **Tulipe** et **Non-Tulipe**. Ce README fournit des détails complets sur les tests d'entraînement effectués avec différents nombres d'époques (10, 20, 30), les résultats obtenus, les observations sur le surapprentissage (overfitting), et des visualisations clés pour évaluer les performances du modèle.
+
+
+## voici les 10 lignes et de chaques execution d'epoques
+## 10 lignes de l'entrainement sur 10 epoques
+![Texte alternatif](./lign10_10.png "Texte au survol")
+
+## 10 lignes de l'entrainement sur 30 epoques 
+
+![Texte alternatif](./lign10_30.png "Texte au survol")
+
+
 
 
 ## Installation des Dépendances

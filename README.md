@@ -69,7 +69,7 @@ python -m pip install setuptools==68.0.0 wheel==0.42.0 wrapt==1.16.0
 
 ## Configurations et Hyperparamètres
 
-- **Classes** : Le modèle est entraîné pour reconnaître deux classes : "tulipe" (classe 1) et "non_tulipe" (classe 2).
+- **Classes** : Le modèle est entraîné pour reconnaître deux classes : "tulipe" (classe 1) et "non_tulipe" (classe 2) et la classe background.
 - **Taux d'apprentissage** : `LEARNING_RATE` est fixé à 0.001 pour assurer une convergence stable et éviter les oscillations dans les pertes.
 - **Nombre d'époques** : Plusieurs configurations d'époques ont été testées pour évaluer l'impact sur les performances du modèle et identifier le point optimal avant le surapprentissage.
 
@@ -77,7 +77,7 @@ python -m pip install setuptools==68.0.0 wheel==0.42.0 wrapt==1.16.0
 
 ## Expériences et Résultats
 
-Nous avons effectué des entraînements avec des nombres d'époques différents : 20, 30, 40 et 50 époques. Voici un résumé des observations et résultats pour chaque configuration d'époques :
+Nous avons effectué des entraînements avec des nombres d'époques différents : 10, 20 et 30 époques. Voici un résumé des observations et résultats pour chaque configuration d'époques :
 
 ### 1. Entraînement sur 20 Époques
 
@@ -110,3 +110,36 @@ Nous avons effectué des entraînements avec des nombres d'époques différents 
 Après avoir comparé les performances des différentes configurations, l'entraînement sur **20 époques** s'est révélé être la meilleure option. À ce stade, le modèle atteint un équilibre entre précision d'entraînement et généralisation sur l'ensemble de validation. Avec plus de 20 époques, le modèle commence à tomber dans le surapprentissage, apprenant trop de caractéristiques spécifiques aux données d'entraînement.
 
 ---
+
+## Test avec epoque 20 
+## image1 
+![Texte alternatif](./fleur.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_fleur.png "Texte au survol")
+
+## image 2
+![Texte alternatif](./fleur2.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_fleur2.png "Texte au survol")
+
+
+## image 3
+![Texte alternatif](./fleur3.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./outputfleur3.png "Texte au survol")
+
+
+## image 4
+![Texte alternatif](./image4.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_image4.png "Texte au survol")
+
+

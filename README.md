@@ -11,29 +11,29 @@ Ce projet utilise Mask R-CNN pour classifier les images de fleurs en deux catég
 ![Texte alternatif](./lign10_10.png "Texte au survol")
 
 ## Courbes de perte d'entrainement
-![Texte alternatif](./lign10_10.png "Texte au survol")
+![Texte alternatif](./loss_10.png "Texte au survol")
 
 ## Courbes de pertes de validation
-![Texte alternatif](./lign10_10.png "Texte au survol")
+![Texte alternatif](./val_loss_10.png "Texte au survol")
 
 ## 10 lignes de l'entrainement sur 20 epoques 
 
 ![Texte alternatif](./lign10_20.png "Texte au survol")
 ## courbes de pertes d'entrainement 
 0
-![Texte alternatif](./lign10_20.png "Texte au survol")
+![Texte alternatif](./loss_20.png "Texte au survol")
 ## courbes de pertes de validation 
 
-![Texte alternatif](./lign10_20.png "Texte au survol")
+![Texte alternatif](./val_loss_20.png "Texte au survol")
 ## 10 lignes de l'entrainement sur 30 epoques 
 
 ![Texte alternatif](./lign10_30.png "Texte au survol")
 ## courbes de pertes d'entrainement
 
-![Texte alternatif](./lign10_30.png "Texte au survol")
+![Texte alternatif](./loss_30.png "Texte au survol")
 ## courbes de pertes de validation 
 
-![Texte alternatif](./lign10_30.png "Texte au survol")
+![Texte alternatif](./val_loss_30.png "Texte au survol")
 
 
 

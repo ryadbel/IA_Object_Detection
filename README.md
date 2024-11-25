@@ -10,10 +10,28 @@ Ce projet utilise Mask R-CNN pour classifier les images de fleurs en deux catég
 ## 10 lignes de l'entrainement sur 10 epoques
 ![Texte alternatif](./lign10_10.png "Texte au survol")
 
+## Courbes de perte d'entrainement
+![Texte alternatif](./lign10_10.png "Texte au survol")
+
+## Courbes de pertes de validation
+![Texte alternatif](./lign10_10.png "Texte au survol")
+
 ## 10 lignes de l'entrainement sur 20 epoques 
 
 ![Texte alternatif](./lign10_20.png "Texte au survol")
+## courbes de pertes d'entrainement 
+0
+![Texte alternatif](./lign10_20.png "Texte au survol")
+## courbes de pertes de validation 
+
+![Texte alternatif](./lign10_20.png "Texte au survol")
 ## 10 lignes de l'entrainement sur 30 epoques 
+
+![Texte alternatif](./lign10_30.png "Texte au survol")
+## courbes de pertes d'entrainement
+
+![Texte alternatif](./lign10_30.png "Texte au survol")
+## courbes de pertes de validation 
 
 ![Texte alternatif](./lign10_30.png "Texte au survol")
 
@@ -98,20 +116,20 @@ Après avoir comparé les performances des différentes configurations, l'entra�
 
 ---
 
-## Test avec epoque 20 
+## Test avec epoque 10 
 ## image1 
 ![Texte alternatif](./fleur.jpg "Texte au survol")
 
 ## voici son resultat 
 
-![Texte alternatif](./output_fleur.png "Texte au survol")
+![Texte alternatif](./output_fleur_10.png "Texte au survol")
 
 ## image 2
 ![Texte alternatif](./fleur2.jpg "Texte au survol")
 
 ## voici son resultat 
 
-![Texte alternatif](./output_fleur2.png "Texte au survol")
+![Texte alternatif](./output_fleur2_10.png "Texte au survol")
 
 
 ## image 3
@@ -119,7 +137,7 @@ Après avoir comparé les performances des différentes configurations, l'entra�
 
 ## voici son resultat 
 
-![Texte alternatif](./output_fleur3.png "Texte au survol")
+![Texte alternatif](./output_fleur3_10png "Texte au survol")
 
 
 ## image 4
@@ -127,7 +145,70 @@ Après avoir comparé les performances des différentes configurations, l'entra�
 
 ## voici son resultat 
 
-![Texte alternatif](./output_image4.png "Texte au survol")
+![Texte alternatif](./output_image4_10.png "Texte au survol")
+
+
+## Test avec epoque 20 
+## image1 
+![Texte alternatif](./fleur.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_fleur_20.png "Texte au survol")
+
+## image 2
+![Texte alternatif](./fleur2.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_fleur2_20.png "Texte au survol")
+
+
+## image 3
+![Texte alternatif](./fleur3.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_fleur3_20.png "Texte au survol")
+
+
+## image 4
+![Texte alternatif](./image4.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_image4_20.png "Texte au survol")
+
+## Test avec epoque 30 
+## image1 
+![Texte alternatif](./fleur.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_fleur_30.png "Texte au survol")
+
+## image 2
+![Texte alternatif](./fleur2.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_fleur2_30.png "Texte au survol")
+
+
+## image 3
+![Texte alternatif](./fleur3.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_fleur3_30.png "Texte au survol")
+
+
+## image 4
+![Texte alternatif](./image4.jpg "Texte au survol")
+
+## voici son resultat 
+
+![Texte alternatif](./output_image4_30.png "Texte au survol")
 
 
 ## matrice de confusion du resultat du modele en une seule epoque 

@@ -137,7 +137,7 @@ Après avoir comparé les performances des différentes configurations, l'entra�
 
 ## voici son resultat 
 
-![Texte alternatif](./output_fleur3_10png "Texte au survol")
+![Texte alternatif](./output_fleur3_10.png "Texte au survol")
 
 
 ## image 4
